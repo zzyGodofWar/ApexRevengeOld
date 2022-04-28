@@ -9,4 +9,6 @@ APEX：英雄
 基本功能：透视、自瞄、压枪、显示全局游戏信息
 
 ## 截图
+![](https://github.com/zzyGodofWar/ApexRevengeOld/blob/7d013f7e614c201b41e9cefb356c1876d3469e36/loginUI.jpg)
 ![](https://github.com/zzyGodofWar/ApexRevengeOld/blob/e811917033353697603dc75950d86d3226638a33/ingame.jpg)
+![](https://github.com/zzyGodofWar/ApexRevengeOld/blob/7d013f7e614c201b41e9cefb356c1876d3469e36/ingame2.jpg)
