@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{b7d82505-ccfb-4b33-822f-d5a88801c332}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="driverLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server_shared.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="other_func.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dOverlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_math.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="handleTCP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kmcontrol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="driverLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="other_func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dOverlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="server_shared.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="handleTCP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kmcontrol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kmmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ApexRevenge.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="login.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
